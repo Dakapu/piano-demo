@@ -4,7 +4,7 @@ import { solid, regular } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 function App() {
   return (
-    <div class="container">
+    <div className="container">
       <h1>This is a Test for Fontawesome</h1>
       <ul>
         <li>
