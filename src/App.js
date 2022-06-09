@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid, regular } from "@fortawesome/fontawesome-svg-core/import.macro";
 
