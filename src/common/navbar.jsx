@@ -5,8 +5,8 @@ import { solid, regular } from "@fortawesome/fontawesome-svg-core/import.macro";
 const NavBar = () => {
   return (
     <div class="w-40 h-full shadow-md bg-white px-1 absolute">
-      <ul class="relative">
-        <li class="relative">
+      <ul class="relative pt-40">
+        <li class="relative py-5">
           <a
             class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
             href="#!"
@@ -18,7 +18,7 @@ const NavBar = () => {
             <span> Sidenav link 1</span>
           </a>
         </li>
-        <li class="relative">
+        <li class="relative py-5">
           <a
             class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
             href="#!"
@@ -30,7 +30,7 @@ const NavBar = () => {
             <span> Sidenav link 2</span>
           </a>
         </li>
-        <li class="relative">
+        <li class="relative py-5">
           <a
             class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
             href="#!"
