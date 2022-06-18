@@ -1,6 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 body {
   margin: 0;
   padding: 0;
@@ -9,7 +6,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html,
+body {
+  min-height: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.background {
+  background: #001e24;
+  background: linear-gradient(133deg, #001e24 0%, #09323d 55%, #89c1c9 100%);
 }
 /*# sourceMappingURL=index.css.map */

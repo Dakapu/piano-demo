@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./scss/index.scss";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
+import "bootstrap/dist/css/bootstrap.css";
+import "./scss/index.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <div className="w-full h-screen bg-gradient-to-br from-slate-900 to-teal-500 ">
+  <div className="background container-fluid p-0 m-0">
     <BrowserRouter>
       <App />
     </BrowserRouter>

@@ -1,16 +1,14 @@
 import NavBar from "./common/navbar";
+import Instrument from "./common/instrument";
 import "./scss/App.scss";
+import React from "react";
 
 function App() {
   return (
-    <div className="w-full">
+    <React.Fragment>
       <NavBar />
-      <div className="h-screen ml-48 container ">
-        <h1 className="font-bold text-3xl text-white text-center uppercase pt-10">
-          This is a Test for Fontawesome
-        </h1>
-      </div>
-    </div>
+      <Instrument />
+    </React.Fragment>
   );
 }
 
