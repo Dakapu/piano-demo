@@ -9,7 +9,7 @@ import "./scss/index.scss";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <div className="background container-fluid p-0 m-0">
+  <div className="container-fluid p-0 m-0">
     <BrowserRouter>
       <App />
     </BrowserRouter>
