@@ -1,6 +1,10 @@
 import React, { Component } from "react";
+import { useState } from "react";
+import "../scss/piano.scss";
 
 const Piano = () => {
+  let [color, setColor] = useState("white");
+
   return (
     <svg
       version="1.1"
@@ -16,11 +20,13 @@ const Piano = () => {
         <rect
           x="-4.599"
           y="235.889"
-          fill="#FFFFFF"
+          fill={color}
           stroke="#000000"
           width="84.341"
           height="370.608"
           className="note-C"
+          onMouseDown={() => setColor((color = "lime"))}
+          onMouseUp={() => setColor((color = "white"))}
         />
         <rect
           x="80.24"
