@@ -10,6 +10,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="*" element={<Card title="Not Found" />} />
+        <Route path="/" element={<Card title="Piano" />} />
         <Route path="piano" element={<Card title="Piano" />} />
         <Route path="drums" element={<Card title="Drums" />} />
         <Route path="flute" element={<Card title="Flute" />} />
