@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid, regular } from "@fortawesome/fontawesome-svg-core/import.macro";
-import pianoIcon from "../img/piano.svg";
-import fluteIcon from "../img/flute.svg";
-import "../scss/navbar.scss";
+import pianoIcon from "../../img/piano.svg";
+import fluteIcon from "../../img/flute.svg";
+import "../../scss/navbar.scss";
 
 const NavBar = () => {
   return (
